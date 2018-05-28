@@ -1,0 +1,460 @@
+<DOCTYPE html> 
+<head> 
+<meta charset="utf-8"> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title> Ravintola Metsa </title> 
+
+<!-- Favicon --> 
+<link rel="icon" href="images/favicon.ico" type="image/x-icon" /> 
+<!--Bootstrap--> 
+<link href="css/bootstrap.css" rel="stylesheet"> 
+<link href="css/template.css" rel="stylesheet">
+<link href="css/animate.css" rel="stylesheet">
+<!-- REVOLUTION STYLE SHEETS -->
+<link rel="stylesheet" type="text/css" href="js/revslider/settings.css">
+<link rel="stylesheet" type="text/css" href="js/revslider/layers.css">
+<link rel="stylesheet" type="text/css" href="js/revslider/navigation.css">
+<!-- REVOLUTION LAYERS STYLES -->
+
+<!-- Slick Slider Start -->
+<link rel="stylesheet" type="text/css" href="css/slick-slider/slick.css">
+<link rel="stylesheet" type="text/css" href="css/slick-slider/slick-theme.css">
+<!-- Slick Slider End -->
+
+<!-- Date-Picker-Start -->
+<link rel="stylesheet" type="text/css" href="js/date-time-pick/default.css">
+<link rel="stylesheet" type="text/css" href="js/date-time-pick/classic.time.css">
+<link rel="stylesheet" type="text/css" href="js/date-time-pick/classic.date.css">
+<!-- Date-Picker-End -->
+<!-- Windows Phone JS Code --> 
+<script type="text/javascript"> 
+	if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+		var msViewportStyle = document.createElement('style')
+		msViewportstyle.appendChild(
+			document.createTextNode(
+				'@-ms-viewport(width:auto!important)'
+			)
+		)
+		document.querySelector('head').appendChild(msViewportStyle)
+	}
+</script>
+<!-- End of Windows Phone JS Code --> 
+
+</head>
+<body class="demo"> 
+<!--Loader section-->
+<div id="loader-wrapper"> 
+	<div id="loader"></div> 
+	<div class="loader-section section-left"></div> 
+	<div class="loader-section section-right"></div> 
+</div> 
+<!--End of Loader section--> 
+<!-- Header Start -->
+<header class="header clearfix">
+	<div class="header-home">
+		<div class="header-container">
+			<div class="fxb-row header-main-row">
+				<div class="header-left fxb-col fxb fxb-start-x fxb-center-y fxb-basis-50 fxb-basis-auto">
+					<div class="header-logo">
+						<a class="logo-anch" href="index.html">
+							<img src="images/ravintola_logo_small_white.png" alt="">
+						</a>
+					</div>
+				</div>
+
+				<div class="header-center fxb-col fxb fxb-center-x fxb-center-y fxb-basis-auto fxb-shrink-0 hidden-sm hidden-xs">
+					<nav class="navbar navbar-inverse">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<div id="navbar" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="menu–boxed.html">Menu</a></li>	
+						<li><a href="about-us.html">About Us</a></li>
+						<li><a href="reservation-form.html">Reservation</a></li>			
+						<li><a href="contact-google-map.html">Contact Us</a></li>
+								
+							</ul>
+						</div>
+					</nav>
+				</div>
+
+				<div class="header-right fxb-col fxb fxb-end-x fxb-center-y fxb-basis-50 fxb-lg-basis-auto fxb-lg-shrink-0">
+					<!-- Navigation Start -->
+					<nav class="mainNav visible-sm visible-xs">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<div class="navigation-list clearfix">
+							<div class="close-icon"><span></span></div>
+
+							<div class="navigation-detail">
+								<ul>
+									<li><a href="index.html">Home</a> </li>
+									<li><a href="menu–boxed.html">Menu</a> </li>
+									<li><a href="reservation-form.html">Reservation</a> </li>
+									<li><a href="about-us.html">About Us</a> </li>
+									<li><a href="contact-google-map.html">Contact</a> </li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+					<!-- Naviagation End -->
+
+					<a href="reservation-form.html" class="hidden-sm hidden-xs btn-default">Reservations</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="dn-stickyRelativeHelper hidden-xs hidden-sm" style="height:152px"></div>
+</header>
+<!-- Header End -->
+<!-- Banner Start -->
+<div class="banner">
+	<img class="OF-cover img-responsive" src="images/contact-banner.jpg" alt="">
+	<div class="banner-overlay"></div>
+	<div class="banner-title">
+		<h5>Have a request? </h5> 
+		<h1>Contact us</h1>
+	</div>
+</div>
+<!-- Banner End -->
+
+<!-- Content-Of-Blog-Detail Start -->
+<div class="content inner-pg contact-content">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-10 col-md-8 col-centered">
+				<h5>contact details</h5>
+
+				<form class="dn__contact-form" action="http://localhost/app/form.php" method="post">
+					<div class="row">
+						<div class="col-sm-4 col-md-4">
+							<div class="form-group">
+							    <label for="exampleInputtext1">name</label>
+							    <input type="text" class="form-control" name="input_username" id="exampleInputtext1">
+							</div>
+						</div>
+
+						<div class="col-sm-4 col-md-4">
+							<div class="form-group">
+							    <label for="exampleInputEmail1">Email</label>
+							    <input type="email" class="form-control" name="input_email" id="exampleInputEmail1">
+						  	</div>
+						</div>
+
+						<div class="col-sm-4 col-md-4">
+							<div class="form-group">
+							    <label for="exampleInputtext2">phone</label>
+							    <input type="text" class="form-control" name="input_phone" id="exampleInputtext2">
+						  	</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-sm-12 col-md-12">
+							<div class="js-cf-message"></div>
+							<div class="form-group">
+							    <label for="exampleInputtext3">message</label>
+							    <textarea class="form-control" rows="7" name="input_message" id="exampleInputtext3"></textarea>
+						  	</div>
+						</div>
+					</div>
+				  
+					<!--// Redirect on success (maybe to a Thank you page, whatever) It will only happen if you provide a URL in the value field -->
+					<input type="hidden" value="YOUR_REDIRECT_LINK" class="ky__redirect-to"/>
+
+				  	<div class="send-message">
+				  		<button type="submit" class="btn btn-default js-submit-form-button">send message</button>
+			  		</div>
+				</form>
+			</div> 
+		</div>
+	</div>  
+</div>
+<!-- Content-Of-Blog-Detail End -->
+
+<!-- Map Start -->
+<div class="map clearfix">
+	<div id="map"></div>
+</div>
+<!-- Map End -->
+
+
+<!-- Footer Start -->
+<footer class="footer padding-top-120 padding-bottom-100 clearfix">
+	<div class="container">
+		<!-- Footer Top Start -->
+		<div class="f-top clearfix">
+			<div class="row">
+				<div class="col-sm-12 col-md-3 col-lg-3">
+					<div class="head-chef">
+						<p>A revolutionized Scandinavian and South East Asian food fusion restaurant concept. Established in Helsinki, 2018.</p>
+					</div>
+				</div>
+
+				<div class="col-sm-12 col-md-2 col-lg-1">
+					<div class="f-nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="menu–stretched.html">Menu</a></li>	
+							<li><a href="reservation-form.html">Reservation</a></li>
+							<li><a href="about-us.html">About</a></li>
+							<li><a href="contact-google-map.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-4">
+					<div class="f-social-follower">
+						<a class="btn btn-default" href="reservation-form.html" role="button">online reservation</a>
+						<div class="f-follower">
+							<h6>Follow Us</h6>
+							<a class="logo-footer" href="index.html">
+								<img src="images/ravintola_logo_white_trans.png" alt="">
+							</a>
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-bell" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-12 col-md-3 col-lg-4">
+					<div class="f-address-contact">
+						<!-- <a href="tel:+4 1800 555 1234" class="telephone">+4 1800 555 1234</a>
+						<a href="mailto:bookatable@restaurant.com" class="mail">bookatable@restaurant.com</a> -->
+						<p>+358 1800 555 1234</p>
+						<p>For booking: </p>
+						<span>bookatable@ravintolametsa.fi</span>
+						<p>For other inquiries: </p>
+						<span>asiakaspalvelu@ravintolametsa.fi</span>
+
+						<div class="f-address">
+							<ul>
+								<li>Mannerheimintie 1</li>
+								<li>HELSINKI</li>
+								<li>00100</li>
+								<li>FINLAND</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Footer Top End -->
+
+		<!-- Footer Bottom Start -->
+		<div class="f-bottom clearfix">
+			<p>Copyright © Ravintola Metsä 2018. All rights reserved.</p>
+		</div>
+		<!-- Footer Bottom End -->
+	</div>
+</footer>
+<!-- Footer End -->
+
+<!-- Loader Modernizr - JS -->
+<script src="js/loader-js/modernizr-2.6.2.min.js"></script>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-3.1.1.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Google Map API Start -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2i0AUD0nKbc9Av4Kkrvwj7MvLBKdh4vs"></script>
+
+<!-- Isotop Mesonery Start -->
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+<script src="js/isotope/packery-mode.pkgd.min.js"></script>
+
+<!-- Parallax Start -->
+<script src="js/parallax.min.js"></script>
+
+<!-- REVOLUTION JS FILES -->
+<script type="text/javascript" src="js/revslider/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="js/revslider/jquery.themepunch.revolution.min.js"></script>
+
+<!-- SLIDER REVOLUTION -->	
+<script type="text/javascript" src="js/revslider/revolution.extension.layeranimation.min.js"></script>
+<script type="text/javascript" src="js/revslider/revolution.extension.navigation.min.js"></script>
+<script type="text/javascript" src="js/revslider/revolution.extension.parallax.min.js"></script>
+<script type="text/javascript" src="js/revslider/revolution.extension.slideanims.min.js"></script>
+
+<!-- Smooth Scroll -->
+<script type="text/javascript" src="js/smoothscroll.js"></script>
+
+<!-- Slick Sider -->
+<script src="js/slick.js"></script>
+
+<!-- NavAccordion -->
+<script src="js/navAccordion.js"></script>
+
+<!-- NavAccordion -->
+<script src="js/date-time-pick/picker.js"></script>
+<script src="js/date-time-pick/picker.date.js"></script>
+<script src="js/date-time-pick/picker.time.js"></script>
+<script src="js/date-time-pick/legacy.js"></script>
+
+<!--Font Script --> 
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Merriweather|Pacifico" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:400i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911" rel="stylesheet">
+
+<!-- Main-Script -->
+<script src="js/ofi.js"></script>
+
+<!-- Main-Script -->
+<script src="js/script.js"></script>
+<script type="text/javascript">
+	var tpj=jQuery;
+	var revapi1075;
+	tpj(document).ready(function() {
+		if(tpj("#rev_slider_1075_1").revolution == undefined){
+			revslider_showDoubleJqueryError("#rev_slider_1075_1");
+		}else{
+			revapi1075 = tpj("#rev_slider_1075_1").show().revolution({
+				sliderType:"standard",
+				jsFileLocation:"revolution/js/",
+				sliderLayout:"fullscreen",
+				dottedOverlay:"none",
+				delay:9000,
+				navigation: {
+					keyboardNavigation:"on",
+					keyboard_direction: "horizontal",
+					mouseScrollNavigation:"off",
+					mouseScrollReverse:"default",
+					onHoverStop:"off",
+					touch:{
+						touchenabled:"on",
+						swipe_threshold: 75,
+						swipe_min_touches: 1,
+						swipe_direction: "vertical",
+						drag_block_vertical: false
+					}
+					,
+					arrows: {
+						style:"uranus",
+						enable:true,
+						hide_onmobile:false,
+						hide_onleave:false,
+						tmp:'',
+						left: {
+							h_align:"right",
+							v_align:"center",
+							h_offset:60,
+							v_offset:10
+						},
+						right: {
+							h_align:"right",
+							v_align:"center",
+							h_offset:10,
+							v_offset:10
+						}
+					},
+					bullets: {
+						enable:true,
+						hide_onmobile:false,
+						style:"uranus",
+						hide_onleave:false,
+						direction:"vertical",
+						h_align:"left",
+						v_align:"center",
+						h_offset:30,
+						v_offset:0,
+						space:5,
+						tmp:'<span class="tp-bullet-line"></span>'
+					}
+				},
+				visibilityLevels:[1240,1024,778,480],
+				gridwidth:[1240,1024,778,480],
+				gridheight:[868,768,960,720],
+				lazyType:"none",
+				parallax: {
+					type:"scroll",
+					origo:"slidercenter",
+					speed:400,
+					levels:[5,10,15,20,25,30,35,40,45,46,47,48,49,50,51,55],
+					type:"scroll",
+				},
+				shadow:0,
+				spinner:"off",
+				stopLoop:"on",
+				stopAfterLoops:0,
+				stopAtSlide:1,
+				shuffle:"off",
+				autoHeight:"off",
+				fullScreenAutoWidth:"off",
+				fullScreenAlignForce:"off",
+				fullScreenOffsetContainer: ".header",
+				fullScreenOffset: "",
+				disableProgressBar:"on",
+				hideThumbsOnMobile:"off",
+				hideSliderAtLimit:0,
+				hideCaptionAtLimit:0,
+				hideAllCaptionAtLilmit:0,
+				debugMode:false,
+				fallbacks: {
+					simplifyAll:"off",
+					nextSlideOnWindowFocus:"off",
+					disableFocusListener:false,
+				}
+			});
+		}
+	});
+	
+	//Map 
+	// When the window has finished loading create our google map below
+	google.maps.event.addDomListener(window, 'load', init);
+
+	function init() {
+		// Basic options for a simple Google Map
+		// For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+		var mapOptions = {
+			// Map zoom in when start
+			zoom: 15,
+
+			// The latitude and longitude to center the map (always required)
+			center: new google.maps.LatLng(60.168427, 24.940927), // Mannerheimintie 1, 00100 Helsinki
+
+			// Map styling
+			// This is where you would paste any style found on Snazzy Maps.
+			styles: [{"featureType": "all","elementType": "labels","stylers": [{"visibility": "on"}]},{"featureType": "all","elementType": "labels.text.fill","stylers": [{"saturation": 36},{"color": "#000000"},{"lightness": 40}]},{"featureType": "all","elementType": "labels.text.stroke","stylers": [{"visibility": "on"},{"color": "#000000"},{"lightness": 16}]},{"featureType": "all","elementType": "labels.icon","stylers": [{"visibility": "off"}]},{"featureType": "administrative","elementType": "geometry.fill","stylers": [{"color": "#000000"},{"lightness": 20}]},{"featureType": "administrative","elementType": "geometry.stroke","stylers": [{"color": "#000000"},{"lightness": 17},{"weight": 1.2}]},{"featureType": "administrative.country","elementType": "labels.text.fill","stylers": [{"color": "#e5c163"}]},{"featureType": "administrative.locality","elementType": "labels.text.fill","stylers": [{"color": "#c4c4c4"}]},{"featureType": "administrative.neighborhood","elementType": "labels.text.fill","stylers": [{"color": "#e5c163"}]},{"featureType": "landscape","elementType": "geometry","stylers": [{"color": "#000000"},{"lightness": 20}]},{"featureType": "poi","elementType": "geometry","stylers": [{"color": "#000000"},{"lightness": 21},{"visibility": "on"}]},{"featureType": "poi.business","elementType": "geometry","stylers": [{"visibility": "on"}]},{"featureType": "road.highway","elementType": "geometry.fill","stylers": [{"color": "#e5c163"},{"lightness": "0"}]},{"featureType": "road.highway","elementType": "geometry.stroke","stylers": [{"visibility": "off"}]},{"featureType": "road.highway","elementType": "labels.text.fill","stylers": [{"color": "#ffffff"}]},{"featureType": "road.highway","elementType": "labels.text.stroke","stylers": [{"color": "#e5c163"}]},{"featureType": "road.arterial","elementType": "geometry","stylers": [{"color": "#000000"},{"lightness": 18}]},{"featureType": "road.arterial","elementType": "geometry.fill","stylers": [{"color": "#575757"}]},{"featureType": "road.arterial","elementType": "labels.text.fill","stylers": [{"color": "#ffffff"}]},{"featureType": "road.arterial","elementType": "labels.text.stroke","stylers": [{"color": "#2c2c2c"}]},{"featureType": "road.local","elementType": "geometry","stylers": [{"color": "#000000"},{"lightness": 16}]},{"featureType": "road.local","elementType": "labels.text.fill","stylers": [{"color": "#999999"}]},{"featureType": "transit","elementType": "geometry","stylers": [{"color": "#000000"},{"lightness": 19}]},{"featureType": "water","elementType": "geometry","stylers": [{"color": "#000000"},{"lightness": 17}]}]
+		};
+
+		// Get the HTML DOM element that will contain your map 
+		// We are using a div with id="map" seen below in the <body>
+		var mapElement = document.getElementById('map');
+
+		// Create the Google Map using our element and options defined above
+		var map = new google.maps.Map(mapElement, mapOptions);
+
+		// Let's also add a marker while we're at it
+		var marker = new google.maps.Marker({
+			position: new google.maps.LatLng(60.168427, 24.940927),
+			map: map,
+			title: 'Ravintola Metsä - Mannerheimintie 1, 00100 '
+		
+		});
+	}
+</script>
+</body>
+</html>
